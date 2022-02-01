@@ -5,3 +5,9 @@ This repository contains the development and practices corresponding to the book
 
 
 >The original repo withn notebooks are in https://github.com/ageron/handson-ml2
+
+
+## Pre-Requisitos
+
+* [git](https://git-scm.com/downloads)
+* [anaconda](https://www.anaconda.com/products/individual) / [minconda](https://docs.conda.io/en/latest/miniconda.html)
