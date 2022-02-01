@@ -11,3 +11,24 @@ This repository contains the development and practices corresponding to the book
 
 * [git](https://git-scm.com/downloads)
 * [anaconda](https://www.anaconda.com/products/individual) / [minconda](https://docs.conda.io/en/latest/miniconda.html)
+
+### Pasos
+
+**Paso 1**: Descargar el repositorio.
+
+```bash
+$ git clone https://github.com/ccollado7/machine_learning_geron.git
+$ cd dm-cyt-tp
+```
+
+**Paso 2**: Crear environment de dependencias para el proyecto (Parado en el directorio del proyecto).
+
+```bash
+$ conda env create -f environment.yml
+```
+
+**Paso 3**: Activamos el entorno donde se encuentran instaladas las dependencias del proyecto.
+
+```bash
+$ conda activate ml-geron
+```
