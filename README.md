@@ -33,7 +33,7 @@ $ conda env create -f environment.yml
 $ conda activate ml-geron
 ```
 
-**Paso 4 **: Sobre el directorio del proyecto levantamos jupyter lab.
+**Paso 4**: Sobre el directorio del proyecto levantamos jupyter lab.
 
 ```bash
 $ jupyter lab
