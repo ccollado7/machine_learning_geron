@@ -7,33 +7,33 @@ This repository contains the development and practices corresponding to the book
 >The original repo withn notebooks are in https://github.com/ageron/handson-ml2
 
 
-## Pre-Requisitos
+## Pre-requirements
 
 * [git](https://git-scm.com/downloads)
 * [anaconda](https://www.anaconda.com/products/individual) / [minconda](https://docs.conda.io/en/latest/miniconda.html)
 
-### Pasos
+### Steps
 
-**Paso 1**: Descargar el repositorio.
+**Step 1**: Download the repository.
 
 ```bash
 $ git clone https://github.com/ccollado7/machine_learning_geron.git
 $ cd dm-cyt-tp
 ```
 
-**Paso 2**: Crear environment de dependencias para el proyecto (Parado en el directorio del proyecto).
+**Step 2**: Create environment dependencies for the project (Stopped in the project directory).
 
 ```bash
 $ conda env create -f environment.yml
 ```
 
-**Paso 3**: Activamos el entorno donde se encuentran instaladas las dependencias del proyecto.
+**Step 3**: Activate the environment where the project dependencies are installed.
 
 ```bash
 $ conda activate ml-geron
 ```
 
-**Paso 4**: Sobre el directorio del proyecto levantamos jupyter lab.
+**Paso 4**: On the project directory we raise jupyter lab or jupyter notebook
 
 ```bash
 $ jupyter lab
@@ -42,13 +42,13 @@ Jupyter Notebook 6.1.4 is running at:
 http://localhost:8888/?token=45efe99607fa6......
 ```
 
-**Paso 5**: Ir a http://localhost:8888.... como se indica en la consola.
+**Step 5**: Go to http://localhost:8888.... as indicated in the console.
 
-## Agregar una nueva depedencia
+## Add a new dependency
 
-**Paso 1**: Agregar la nueva depedencia a ´environment.yml´
+**Step 1**: Add the new dependency to ´environment.yml´
 
-Conda tiene sus propios repositorios de paquetes pero en caso de tener algun problema siempre se puede usar los paquetes de pip.
+Conda has its own package repositories but in case of any problems you can always use the pip packages.
 
 ```yaml
 ...
@@ -61,11 +61,11 @@ dependencies:
 ...
 ```
 
-**Paso 2**: Una vez que agregamos el nombre del nuevo paquetes en ´environment.yml´ resta instalarlo. Para esto debemos **actualizar** nuestro environment con con los cambios que realizamos en ´environment.yml´ de la siguiente forma:
+**Step 2**: Once we add the name of the new package in ´environment.yml´ it remains to install it. For this we must **update** our environment with the changes we made in ´environment.yml´ as follows:
 
 ```bash
 $ conda env update -f environment.yml
 ```
-**Paso 3**: Finalmente si teniamos abierto **jupyter lab**, debemos reinifiar el kernel donde estemso corriendo nuestra notebook para poder cargar la nueva libreria.
+**Step 3**: Finally, if we had **jupyter lab** open, we must restart the kernel where our notebook is running in order to load the new library.
 
 ![image](https://user-images.githubusercontent.com/962480/145253730-365cb56b-ae26-41b0-a38d-41d505c9ea74.png)
