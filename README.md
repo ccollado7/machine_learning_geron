@@ -18,7 +18,7 @@ This repository contains the development and practices corresponding to the book
 
 ```bash
 $ git clone https://github.com/ccollado7/machine_learning_geron.git
-$ cd dm-cyt-tp
+$ cd machine_learning_geron
 ```
 
 **Step 2**: Create environment dependencies for the project (Stopped in the project directory).
